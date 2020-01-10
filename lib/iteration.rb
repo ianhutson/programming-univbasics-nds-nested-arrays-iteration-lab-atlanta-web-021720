@@ -13,8 +13,7 @@ def join_ingredients(src)
   [row_index].count do
     puts src[row_index][element_index]
     element_index += 1
-  end
-  row_index += 1
+  
 end
 
 def find_greater_pair(src)
