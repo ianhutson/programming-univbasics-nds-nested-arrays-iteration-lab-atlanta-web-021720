@@ -23,14 +23,14 @@ def find_greater_pair(src)
   result = []
 
   row_index = 0
-  while i < src.length do
-    result <<  (src[row_index][0] > src[row_index][1] ? src[row_index][0] : src[i][1])
+  while row_index < src.length do
+    result <<  (src[row_index][0] > src[row_index][1] ? src[row_index][0] : src[row_index][1])
     row_index += 1
   end
 
   result
 end
-end
+
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
