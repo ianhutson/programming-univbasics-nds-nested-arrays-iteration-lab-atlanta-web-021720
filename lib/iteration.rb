@@ -10,7 +10,7 @@ def join_ingredients(src)
   while row_index < src.count do
     inner = src[row_index]
     result << "I love #{inner[0]} and #{inner[1]} on my pizza"
-    
+    row_index += 1
 end
 
 def find_greater_pair(src)
